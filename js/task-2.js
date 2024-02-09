@@ -9,6 +9,9 @@ function calcAverageCalories(days) {
     }
     return days.length >=1 ? tagSum/days.length : 0
 }
+
+// ====================================================================================================================
+
 console.log(
   calcAverageCalories([
     { day: "monday", calories: 3010 },
